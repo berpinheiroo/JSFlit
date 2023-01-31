@@ -10,8 +10,9 @@ addition -= 3
 // !termino_o_trabalho || !tenho_compromisso, saio_tarde
 
 
+// 1.3
 
-// 1 - Se caminho 5Km e corro 2Km, passo o dia bem.
+// 1.2.1 - Se caminho 5Km e corro 2Km, passo o dia bem.
 
 var caminho = '5Km'
 var corro = '2Km'
@@ -20,7 +21,7 @@ if(caminho === '5Km' && corro === '2Km'){
     console.log("Passo o dia bem.")
 }
 
-// 2 - Se levanto cedo OU antes das 8, saio tranquilo.
+// 1.2.2 - Se levanto cedo OU antes das 8, saio tranquilo.
 
 var levanto = 'cedo'
 
@@ -28,7 +29,7 @@ if(levanto === 'cedo' || levanto === 'antes das 8'){
     console.log("Saio tranquilo.")
 }
 
-// 3 - Se NÃO termino o trabalho ou NÃO tenho compromisso, saio tarde.
+// 1.2.3 - Se NÃO termino o trabalho ou NÃO tenho compromisso, saio tarde.
 
 var termino = 'o trabalho'
 var tenho = 'compromisso'
@@ -37,6 +38,9 @@ if(!termino === 'o trabalho' || !tenho === 'compromisso'){
     console.log("Saio tarde.")
 }
 
+
+
+// 1.3
 var num = 12
 var contador = 0
 
@@ -59,10 +63,26 @@ switch (contador) {
         break;
 }
 
-// 2:
+// 1.3.2:
 
 var hora = 5;
 var minutos = 0;
 
 hora > 0 ? minutos = hora*60 : minutos = 60;
 console.log(minutos)
+
+
+
+
+// 1.4
+
+// 1.4.1
+var array = [12, 6, 9, 42, 11, 102, 44, 15]
+var index = 0
+var soma = 0
+
+for (index; index < array.length; index++) {
+    soma = soma + array[index]
+}
+
+console.log(soma)
